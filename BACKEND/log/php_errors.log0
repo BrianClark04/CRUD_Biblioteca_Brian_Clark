@@ -1,0 +1,165 @@
+[31-May-2024 23:32:48 Europe/Berlin] PHP Warning:  Undefined array key "funcion" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 4
+[31-May-2024 23:33:13 Europe/Berlin] PHP Warning:  Undefined array key "funcion" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 4
+[31-May-2024 23:34:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "conn" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:10
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(33): Modelolibro->obtenerLibroModelo()
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(19): obtenerLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 10
+[31-May-2024 23:35:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "conn" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:10
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(34): Modelolibro->obtenerLibroModelo()
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(19): obtenerLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 10
+[31-May-2024 23:38:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "conn" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:10
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(33): Modelolibro->obtenerLibroModelo()
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(19): obtenerLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 10
+[03-Jun-2024 22:28:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "conn" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:10
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(33): Modelolibro->obtenerLibroModelo()
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(19): obtenerLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 10
+[03-Jun-2024 22:29:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "conn" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:10
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(33): Modelolibro->obtenerLibroModelo()
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(19): obtenerLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 10
+[03-Jun-2024 22:43:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function agregarlibros() in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 9
+[03-Jun-2024 22:45:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:24
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php(24): mysqli->query('INSERT INTO lib...')
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): Modelolibro->agregarLibroModelo('jorge', '2024-8-31', '500')
+#2 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#3 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 24
+[03-Jun-2024 22:45:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:24
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php(24): mysqli->query('INSERT INTO lib...')
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): Modelolibro->agregarLibroModelo('jorge', '2024-8-31', '500')
+#2 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#3 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 24
+[03-Jun-2024 22:47:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:24
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php(24): mysqli->query('INSERT INTO lib...')
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): Modelolibro->agregarLibroModelo('jorge', '2024-08-31', '500')
+#2 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#3 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 24
+[03-Jun-2024 22:49:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:24
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php(24): mysqli->query('INSERT INTO lib...')
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): Modelolibro->agregarLibroModelo('jorge', '2024-08-31', '500')
+#2 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#3 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 24
+[03-Jun-2024 22:50:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:24
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php(24): mysqli->query('INSERT INTO lib...')
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): Modelolibro->agregarLibroModelo('jorge', '2024-08-31', '500')
+#2 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#3 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 24
+[03-Jun-2024 23:01:19 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 48
+[03-Jun-2024 23:12:46 Europe/Berlin] PHP Warning:  Undefined array key "Precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 58
+[03-Jun-2024 23:12:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "usuariLibrosModelo" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php:59
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(25): modificarLibros()
+#1 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 59
+[03-Jun-2024 23:17:52 Europe/Berlin] PHP Warning:  Undefined array key "Precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 58
+[03-Jun-2024 23:18:20 Europe/Berlin] PHP Warning:  Undefined array key "Precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 58
+[03-Jun-2024 23:21:03 Europe/Berlin] PHP Warning:  Undefined array key "Precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 58
+[03-Jun-2024 23:21:27 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 55
+[03-Jun-2024 23:21:27 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 56
+[03-Jun-2024 23:21:27 Europe/Berlin] PHP Warning:  Undefined array key "fecha" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 57
+[03-Jun-2024 23:21:27 Europe/Berlin] PHP Warning:  Undefined array key "Precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 58
+[09-Jul-2024 01:40:17 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 39
+[09-Jul-2024 01:40:17 Europe/Berlin] PHP Warning:  Undefined array key "fecha" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 40
+[09-Jul-2024 01:40:17 Europe/Berlin] PHP Warning:  Undefined array key "precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 41
+[09-Jul-2024 01:40:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "respuesta" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:26
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): modeloLibro->agregarLibroModelo(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 26
+[09-Jul-2024 01:42:04 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 39
+[09-Jul-2024 01:42:04 Europe/Berlin] PHP Warning:  Undefined array key "fecha" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 40
+[09-Jul-2024 01:42:04 Europe/Berlin] PHP Warning:  Undefined array key "precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 41
+[09-Jul-2024 01:42:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "respuesta" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:26
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): modeloLibro->agregarLibroModelo(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 26
+[09-Jul-2024 01:42:39 Europe/Berlin] PHP Warning:  Undefined array key "funcion" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 4
+[09-Jul-2024 01:43:53 Europe/Berlin] PHP Warning:  Undefined array key "funcion" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 4
+[09-Jul-2024 01:44:17 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 39
+[09-Jul-2024 01:44:17 Europe/Berlin] PHP Warning:  Undefined array key "fecha" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 40
+[09-Jul-2024 01:44:17 Europe/Berlin] PHP Warning:  Undefined array key "precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 41
+[09-Jul-2024 01:44:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "respuesta" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:26
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): modeloLibro->agregarLibroModelo(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 26
+[09-Jul-2024 01:44:53 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 39
+[09-Jul-2024 01:44:53 Europe/Berlin] PHP Warning:  Undefined array key "fecha" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 40
+[09-Jul-2024 01:44:53 Europe/Berlin] PHP Warning:  Undefined array key "precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 41
+[09-Jul-2024 01:44:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "respuesta" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:26
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): modeloLibro->agregarLibroModelo(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 26
+[09-Jul-2024 01:47:29 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 39
+[09-Jul-2024 01:47:29 Europe/Berlin] PHP Warning:  Undefined array key "fecha" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 40
+[09-Jul-2024 01:47:29 Europe/Berlin] PHP Warning:  Undefined array key "precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 41
+[09-Jul-2024 01:47:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "respuesta" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:26
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): modeloLibro->agregarLibroModelo(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 26
+[09-Jul-2024 01:48:34 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 39
+[09-Jul-2024 01:48:34 Europe/Berlin] PHP Warning:  Undefined array key "fecha" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 40
+[09-Jul-2024 01:48:34 Europe/Berlin] PHP Warning:  Undefined array key "precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 41
+[09-Jul-2024 01:48:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "respuesta" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:26
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): modeloLibro->agregarLibroModelo(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 26
+[09-Jul-2024 01:48:47 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 39
+[09-Jul-2024 01:48:47 Europe/Berlin] PHP Warning:  Undefined array key "fecha" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 40
+[09-Jul-2024 01:48:47 Europe/Berlin] PHP Warning:  Undefined array key "precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 41
+[09-Jul-2024 01:48:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "respuesta" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:26
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): modeloLibro->agregarLibroModelo(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 26
+[09-Jul-2024 01:50:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "respuesta" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:26
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): modeloLibro->agregarLibroModelo('brayan', '2024-08-31', '12345')
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 26
+[09-Jul-2024 01:53:55 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 39
+[09-Jul-2024 01:53:55 Europe/Berlin] PHP Warning:  Undefined array key "fecha" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 40
+[09-Jul-2024 01:53:55 Europe/Berlin] PHP Warning:  Undefined array key "precio" in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php on line 41
+[09-Jul-2024 01:53:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "respuesta" not found in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php:26
+Stack trace:
+#0 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(42): modeloLibro->agregarLibroModelo(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\CONTROLADOR\controladorLibros.php(9): agregarLibros()
+#2 {main}
+  thrown in C:\xampp\htdocs\CRUD_Biblioteca_Brian_Clark\BACKEND\MODELO\modeloLibro.php on line 26
